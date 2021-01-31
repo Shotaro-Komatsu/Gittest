@@ -4,9 +4,9 @@ load('CMpoint.sage')
 
 K=CMFieldfromPoly(2,-5,'a',prec=200)
 
-O=K.suitable_ideals()[1]
+a=K.suitable_ideals()[1]
 conj=K.complex_conjugation()
-principal=K.different()*O*(conj(O))
+principal=K.different()*a*(conj(a))
 
 
 pair=K.xi_and_CMtype()
