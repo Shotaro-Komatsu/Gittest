@@ -1,6 +1,6 @@
-load('/home/sage/Documents/ドライブ/Sage/code/CMfield.sage')
-load('/home/sage/Documents/ドライブ/Sage/code/theta_function.sage')
-load('/home/sage/Documents/ドライブ/Sage/code/CMpoint.sage')
+load('CMfield.sage')
+load('theta_function.sage')
+load('CMpoint.sage')
 
 K=CMFieldfromPoly(2,-5,'a',prec=200)
 
